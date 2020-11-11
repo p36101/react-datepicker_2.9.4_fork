@@ -3097,8 +3097,7 @@
                       (a = Me(a, { hour: k(s), minute: g(s), second: w(s) }));
                   }
                   o.props.inline || o.setState({ preSelection: a }),
-                    o.props.inline &&
-                      o.props.monthsShown > 1 &&
+                    o.props.monthsShown > 1 &&
                       !o.props.inlineFocusSelectedMonth &&
                       o.setState({ monthSelectedIn: n });
                 }
