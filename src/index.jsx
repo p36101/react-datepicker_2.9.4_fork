@@ -450,7 +450,7 @@ export default class DatePicker extends React.Component {
           });
         }
         if (
-          this.props.inline &&
+          // this.props.inline &&
           this.props.monthsShown > 1 &&
           !this.props.inlineFocusSelectedMonth
         ) {
